@@ -35,21 +35,16 @@ class ScreenFirst extends StatelessWidget {
                 style: TextStyle(color: Colors.grey),
               ),
             ),
-            SizedBox(height: 45),
+            SizedBox(height: 35),
             Container(
               height: 50,
               width: 200,
               padding: EdgeInsets.all(16),
               margin: EdgeInsets.all(16),
               decoration: BoxDecoration(
-                  color: Colors.pink,
-                  borderRadius: BorderRadius.circular(5),
-                  boxShadow: [
-                    BoxShadow(
-                        color: Colors.white,
-                        blurRadius: 10.0,
-                        spreadRadius: 5.0),
-                  ]),
+                color: Colors.pink,
+                borderRadius: BorderRadius.circular(5),
+              ),
               child: TextButton(
                 onPressed: () {
                   Navigator.push(context,

@@ -1,5 +1,5 @@
 import 'package:chattingapp/Chat/Chat_Screen.dart';
-import 'package:chattingapp/Screens/sign.dart';
+import 'package:chattingapp/Screens/signUp.dart';
 import 'package:chattingapp/Screens/register.dart';
 import 'package:chattingapp/Screens/create_account.dart';
 import 'package:flutter/material.dart';

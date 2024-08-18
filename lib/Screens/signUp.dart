@@ -1,4 +1,4 @@
-import 'package:chattingapp/Chat/Chat_Screen.dart';
+import 'package:chattingapp/Screens/SignIn.dart';
 import 'package:flutter/material.dart';
 
 class CreateAccount extends StatefulWidget {
@@ -130,7 +130,7 @@ class _CreateAccountState extends State<CreateAccount> {
             debugPrint("Email:" + EmailController.text);
             debugPrint("Password:" + passwordController.text);
             Navigator.push(
-                context, MaterialPageRoute(builder: (context) => ChatScreen()));
+                context, MaterialPageRoute(builder: (context) => SignIn()));
           },
           child: Center(
             child: Text(

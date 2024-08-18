@@ -1,6 +1,5 @@
-import 'package:chattingapp/Screens/auth_provider.dart';
 import 'package:chattingapp/Chat/Chat_Screen.dart';
-import 'package:chattingapp/Screens/sign.dart';
+import 'package:chattingapp/Screens/signUp.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';

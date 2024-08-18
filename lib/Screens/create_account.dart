@@ -1,5 +1,5 @@
 import 'package:chattingapp/Chat/Chat_Screen.dart';
-import 'package:chattingapp/Screens/sign.dart';
+import 'package:chattingapp/Screens/signUp.dart';
 import 'package:flutter/material.dart';
 
 class SignUp extends StatefulWidget {
